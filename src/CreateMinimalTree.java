@@ -2,17 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 
-class TreeNode {
-	private int val;
-	public TreeNode left;
-	public TreeNode right;
-	public TreeNode(int v) {
-		val = v;
-	}
-	public void printTreeNode() {
-		System.out.println(val);
-	}
-}
+
 public class CreateMinimalTree {
 	static public TreeNode createTree(int[] numbers) {
 		int len = numbers.length;

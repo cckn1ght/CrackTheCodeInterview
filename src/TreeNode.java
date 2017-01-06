@@ -1,9 +1,11 @@
-
-public class TreeNode {
-	public int val;
+class TreeNode {
+	private int val;
 	public TreeNode left;
 	public TreeNode right;
-	public TreeNode (int v) {
+	public TreeNode(int v) {
 		val = v;
+	}
+	public void printTreeNode() {
+		System.out.println(val);
 	}
 }
